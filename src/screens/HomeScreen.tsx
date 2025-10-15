@@ -1,4 +1,3 @@
-// HomeScreen.tsx（スタイルと該当箇所のみ差し替え版）
 import React, { useMemo, useState } from 'react'
 import {
   View, Text, TextInput, Pressable, StyleSheet, Image, ScrollView,
@@ -143,7 +142,7 @@ const styles = StyleSheet.create({
 
   // .sideAnalyze-app
   sideAnalyzeApp: {
-    position: 'relative', // stickyの代替：必要なら親を固定配置に
+    position: 'relative', 
     top: 0, zIndex: 9999,
     marginTop: 10, padding: 10,
     backgroundColor: 'rgba(255,255,255,0.25)', // backdrop-filter代替
