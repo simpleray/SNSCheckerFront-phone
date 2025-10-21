@@ -1,4 +1,3 @@
-// HomeScreen.tsx（全面リファクタ版）
 import React, { useMemo, useState } from 'react'
 import {
   View, Text, TextInput, Pressable, StyleSheet, Image, ScrollView,
