@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import type { RootStackParamList } from '../navigation/types';
@@ -13,6 +13,7 @@ export default function LoginScreen() {
   return (
     <View style={styles.c}>
       <TouchableOpacity style={styles.btn} onPress={onLogin}>
+        <Image source={require('../../assets/splash-icon.png')} style={{ width: 100, height: 100, marginBottom: 20 }} />
         <Text style={styles.txt}>ログイン</Text>
       </TouchableOpacity>
     </View>

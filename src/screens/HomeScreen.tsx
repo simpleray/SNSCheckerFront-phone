@@ -219,7 +219,7 @@ const styles = StyleSheet.create({
   // キャラクター
   characterWrap:{ alignItems:'center', marginTop:8 },
   character:{ width:200, height:200 },
-    sectionTitle: {
+  sectionTitle: {
     fontSize: 16,
     fontWeight: '600',
     color: '#37474F',
